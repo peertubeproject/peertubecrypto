@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/peertube_bg.qm</file>
+        <file alias="ca">locale/peertube_ca.qm</file>
+        <file alias="cs">locale/peertube_cs.qm</file>
+        <file alias="da">locale/peertube_da.qm</file>
+        <file alias="de">locale/peertube_de.qm</file>
+        <file alias="en">locale/peertube_en.qm</file>
+        <file alias="en_US">locale/peertube_en_US.qm</file>
+        <file alias="es">locale/peertube_es.qm</file>
+        <file alias="fi">locale/peertube_fi.qm</file>
+        <file alias="fr_FR">locale/peertube_fr_FR.qm</file>
+        <file alias="hr">locale/peertube_hr.qm</file>
+        <file alias="it">locale/peertube_it.qm</file>
+        <file alias="ja">locale/peertube_ja.qm</file>
+        <file alias="ko_KR">locale/peertube_ko_KR.qm</file>
+        <file alias="nl">locale/peertube_nl.qm</file>
+        <file alias="pl">locale/peertube_pl.qm</file>
+        <file alias="pt">locale/peertube_pt.qm</file>
+        <file alias="pt_BR">locale/peertube_pt_BR.qm</file>
+        <file alias="ro_RO">locale/peertube_ro_RO.qm</file>
+        <file alias="ru">locale/peertube_ru.qm</file>
+        <file alias="sk">locale/peertube_sk.qm</file>
+        <file alias="sv">locale/peertube_sv.qm</file>
+        <file alias="tr">locale/peertube_tr.qm</file>
+        <file alias="uk">locale/peertube_uk.qm</file>
+        <file alias="zh_CN">locale/peertube_zh_CN.qm</file>
+        <file alias="zh_TW">locale/peertube_zh_TW.qm</file>
+    </qresource>
+</RCC>

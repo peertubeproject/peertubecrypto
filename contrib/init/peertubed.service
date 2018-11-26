@@ -1,0 +1,26 @@
+[Unit]
+Description=PeerTubeCrypto's distributed currency daemon
+After=network.target
+
+[Service]
+User=peertube
+Group=peertube
+
+Type=forking
+PIDFile=/var/lib/peertubed/peertubed.pid
+
+ExecStart=/usr/bin/peertubed -daemon -pid=/var/lib/peertubed/peertubed.pid \
+          -conf=/etc/peertube/peertube.conf -datadir=/var/lib/peertubed
+
+ExecStop=-/usr/bin/peertube-cli -conf=/etc/peertube/peertube.conf \
+         -datadir=/var/lib/peertubed stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

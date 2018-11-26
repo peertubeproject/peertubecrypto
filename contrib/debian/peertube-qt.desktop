@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PeerTubeCrypto
+Comment=PeerTubeCrypto P2P Cryptocurrency
+Comment[fr]=PeerTubeCrypto, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=PeerTubeCrypto, eşten eşe kriptografik sanal para birimi
+Exec=peertube-qt %u
+Terminal=false
+Type=Application
+Icon=peertube128
+MimeType=x-scheme-handler/peertube;
+Categories=Office;Finance;
